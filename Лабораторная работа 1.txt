@@ -1,0 +1,33 @@
+#include <locale.h>
+#include <stdio.h>
+void name();
+void date();
+
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	puts("Моя программа");
+	getchar();
+	name();
+	date();
+}
+
+void name()
+{
+	puts("****************************************");
+	puts("*                                      *");
+	puts("* тема: Разработка консольного проекта *");
+	puts("*                                      *");
+	puts("*       Выполнила Лепендина А. В.      *");
+	puts("*                                      *");
+	puts("****************************************");
+	
+}
+
+void date()
+{ 
+	puts(" _       _        _    _ ");
+	puts(" _|  |  | | |_|  | |  |_|");
+	puts("|_   |. |_|   |. |_|  |_|");
+	getchar();
+}

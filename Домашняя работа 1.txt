@@ -1,0 +1,27 @@
+#include <locale.h>
+#include <stdio.h>
+void paint();
+
+void main()
+{
+	setlocale(LC_ALL, "RUS");
+	paint();
+	getchar();
+}
+
+void paint()
+{	puts("           *               ");
+	puts("           * *             ");
+	puts("           *  *            ");
+	puts("           *    *          ");
+	puts("           *  *            ");
+	puts("           * *             ");
+	puts("           *               ");
+	puts("           *               ");
+	puts("***************************");
+	puts(" *                       * ");
+	puts("  *                     *  ");
+	puts("   *                   *   ");
+	puts("    *                 *    ");
+	puts("     *****************     ");
+}
